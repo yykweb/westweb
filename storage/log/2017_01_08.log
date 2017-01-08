@@ -13,3 +13,6 @@
 [ 2017-01-08T14:23:00+08:00 ]E_NOTICE: Use of undefined constant title - assumed 'title'(8)D:\westweb\storage\view\compile\app_admin_view_order_view_php_d9b2f.php (5).
 [ 2017-01-08T14:23:49+08:00 ]E_NOTICE: Use of undefined constant title - assumed 'title'(8)D:\westweb\storage\view\compile\app_admin_view_order_view_php_d9b2f.php (5).
 [ 2017-01-08T14:23:49+08:00 ]E_NOTICE: Use of undefined constant content - assumed 'content'(8)D:\westweb\storage\view\compile\app_admin_view_order_view_php_d9b2f.php (8).
+[ 2017-01-08T16:36:56+08:00 ]E_ERROR: Cannot call constructor(E_ERROR)D:\westweb\app\member\controller\Base.php (9).
+[ 2017-01-08T16:37:38+08:00 ]E_ERROR: Cannot call constructor(E_ERROR)D:\westweb\app\member\controller\Base.php (9).
+[ 2017-01-08T16:44:43+08:00 ]E_ERROR: Cannot call constructor(E_ERROR)D:\westweb\app\member\controller\Base.php (9).
