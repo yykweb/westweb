@@ -1,0 +1,1 @@
+0000003600a:1:{i:0;a:6:{s:6:"method";s:3:"get";s:5:"route";s:11:"admin/login";s:8:"callback";s:17:"admin/login/index";s:6:"regexp";s:15:"#^admin/login$#";s:4:"args";a:0:{}s:3:"get";a:0:{}}}

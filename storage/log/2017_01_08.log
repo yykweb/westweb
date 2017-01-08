@@ -1,1 +1,15 @@
 [ 2017-01-08T10:42:00+08:00 ]E_NOTICE: Undefined offset: 0(8)D:\westweb\app\home\controller\Entry.php (17).
+[ 2017-01-08T13:48:38+08:00 ]E_WARNING: trim() expects parameter 1 to be string, array given(2)D:\westweb\vendor\houdunwang\route\src\build\Setting.php (28).
+[ 2017-01-08T13:49:24+08:00 ]E_WARNING: trim() expects parameter 1 to be string, array given(2)D:\westweb\vendor\houdunwang\route\src\build\Setting.php (28).
+[ 2017-01-08T13:49:25+08:00 ]E_WARNING: trim() expects parameter 1 to be string, array given(2)D:\westweb\vendor\houdunwang\route\src\build\Setting.php (28).
+[ 2017-01-08T13:49:26+08:00 ]E_WARNING: trim() expects parameter 1 to be string, array given(2)D:\westweb\vendor\houdunwang\route\src\build\Setting.php (28).
+[ 2017-01-08T13:49:26+08:00 ]E_WARNING: trim() expects parameter 1 to be string, array given(2)D:\westweb\vendor\houdunwang\route\src\build\Setting.php (28).
+[ 2017-01-08T13:49:27+08:00 ]E_WARNING: trim() expects parameter 1 to be string, array given(2)D:\westweb\vendor\houdunwang\route\src\build\Setting.php (28).
+[ 2017-01-08T13:50:06+08:00 ]E_USER_ERROR: 模板不存在:app/admin/view/login/index.php(256)D:\westweb\vendor\houdunwang\view\src\build\Base.php (130).
+[ 2017-01-08T14:18:46+08:00 ]E_WARNING: Missing argument 1 for houdunwang\view\build\Base::with()(2)D:\westweb\vendor\houdunwang\view\src\build\Base.php (94).
+[ 2017-01-08T14:22:46+08:00 ]E_NOTICE: Use of undefined constant title - assumed 'title'(8)D:\westweb\storage\view\compile\app_admin_view_order_view_php_d9b2f.php (5).
+[ 2017-01-08T14:22:46+08:00 ]E_NOTICE: Array to string conversion(8)D:\westweb\storage\view\compile\app_admin_view_order_view_php_d9b2f.php (5).
+[ 2017-01-08T14:22:59+08:00 ]E_NOTICE: Use of undefined constant title - assumed 'title'(8)D:\westweb\storage\view\compile\app_admin_view_order_view_php_d9b2f.php (5).
+[ 2017-01-08T14:23:00+08:00 ]E_NOTICE: Use of undefined constant title - assumed 'title'(8)D:\westweb\storage\view\compile\app_admin_view_order_view_php_d9b2f.php (5).
+[ 2017-01-08T14:23:49+08:00 ]E_NOTICE: Use of undefined constant title - assumed 'title'(8)D:\westweb\storage\view\compile\app_admin_view_order_view_php_d9b2f.php (5).
+[ 2017-01-08T14:23:49+08:00 ]E_NOTICE: Use of undefined constant content - assumed 'content'(8)D:\westweb\storage\view\compile\app_admin_view_order_view_php_d9b2f.php (8).
