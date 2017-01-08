@@ -1,7 +1,7 @@
 {
     "name": "yykweb/westweb",
     "description": "西部数码主机销售与域名销售平台",
-    "type": "project",
+    "type": "composer-plugin",
     "license": "MIT",
     "authors": [
         {
