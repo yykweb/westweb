@@ -1,0 +1,28 @@
+{
+    "name": "yykweb/westweb",
+    "description": "西部数码主机销售与域名销售平台",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yykweb",
+            "email": "lizhen@youyike.cn"
+        }
+    ],
+    "homepage": "http://www.lingdu.gs/",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "houdunwang/framework": "3.0.*",
+        "yykweb/west":"dev-master",
+        "yykweb/host":"dev-master",
+        "yykweb/yuming":"dev-master",
+        "yykweb/yun":"dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app",
+            "system\\": "system"
+        }
+    }
+}
