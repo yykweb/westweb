@@ -1,0 +1,259 @@
+
+.note_bg_clore {
+	background-color: #E2EDFC;
+	font-family: verdana, "Microsoft YaHei";
+	font-size: 13px;
+	font-weight: bold;
+	color: #980303;
+	background:url(../images/admin_bj2.jpg) repeat-x 0px -112px; 
+	height:34px;
+}
+.welcom_note {
+	font-family: verdana, "Microsoft YaHei";
+	font-size: 14px;
+	color: #0863AA;
+	font-weight: 900;
+}
+.alltext_note {
+	font-family: verdana, "Microsoft YaHei";
+	font-size: 12px;
+	color: #555555;
+	line-height: 20px;
+	padding: 5px;
+	position:absolute;
+}
+.welcome_mobile {
+	font-family: verdana, "Microsoft YaHei";
+	font-size: 12px;
+	color: #555;
+}
+.text_red {
+	font-family: verdana, "Microsoft YaHei";
+	font-size: 12px;
+	color: #F00;
+	text-decoration: underline;
+}
+.text_hs {
+	font-family: verdana, "Microsoft YaHei";
+	font-size: 12px;
+	color: #8E8E8E;
+}
+
+.text_hs a{
+	font-family: verdana, "Microsoft YaHei";
+	font-size: 12px;
+	color:#36F;
+	text-decoration:none
+}
+.text_hs a:hover{
+	font-family: verdana, "Microsoft YaHei";
+	font-size: 12px;
+	color:#900;
+	text-decoration:none
+}
+
+
+INPUT {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #666 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: #f9f9f9; COLOR: #333; BORDER-TOP: #666 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 2px ; FONT: 12px "Lucida Grande", Verdana, Lucida, Helvetica, Arial, "Microsoft YaHei", sans-serif; COLOR: #555
+}
+TEXTAREA {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #666 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: #f9f9f9; COLOR: #333; BORDER-TOP: #666 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 2px
+}
+.txt {
+	VERTICAL-ALIGN: middle
+}
+.txt:hover {
+	BORDER-BOTTOM-COLOR: #09c; BORDER-TOP-COLOR: #09c; BACKGROUND: #f5f9fd; BORDER-RIGHT-COLOR: #09c; BORDER-LEFT-COLOR: #09c
+}
+.txt:focus {
+	BORDER-BOTTOM-COLOR: #09c; BORDER-TOP-COLOR: #09c; BACKGROUND: #f5f9fd; BORDER-RIGHT-COLOR: #09c; BORDER-LEFT-COLOR: #09c
+}
+.TEXTAREA:hover {
+	BORDER-BOTTOM-COLOR: #09c; BORDER-TOP-COLOR: #09c; BACKGROUND: #f5f9fd; BORDER-RIGHT-COLOR: #09c; BORDER-LEFT-COLOR: #09c
+}
+.TEXTAREA:focus {
+	BORDER-BOTTOM-COLOR: #09c; BORDER-TOP-COLOR: #09c; BACKGROUND: #f5f9fd; BORDER-RIGHT-COLOR: #09c; BORDER-LEFT-COLOR: #09c
+}
+.btn{ margin:3px 0; padding:4px 22px 4px!important; *padding:4px 4px 1px!important; *padding:4px 4px 1px; border-color:#ddd #666 #666 #ddd; background:#DDD; color:#000; cursor:pointer; vertical-align:middle; }
+.btn22{background:url(../images/but_fh.gif) no-repeat; width:121px; height:23px; border:0px; cursor:pointer;}
+.btn1{background:url(../images/admin2_07.gif) no-repeat; width:61px; height:23px; border:0px; cursor:pointer;}
+.alltext1_note {
+	font-family: verdana, "Microsoft YaHei";
+	font-size: 12px;
+	color: #555555;
+	background-image: url(../images/line_1.gif);
+	background-repeat: repeat;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	line-height: 30px;
+	}
+.alltext1_note_case {
+	font-family: verdana, "Microsoft YaHei";
+	font-size: 12px;
+	color: #555555;
+	background-image: url(../images/line_1.gif);
+	background-repeat: repeat-x;
+	background-position:bottom;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	line-height: 100px;
+	height:100px;  
+
+	}
+	
+.alltextCs_note {
+	font-family: verdana, "Microsoft YaHei";
+	font-size: 12px;
+	color: #555555;
+	background-image: url(../images/line_2.gif);
+	background-repeat: repeat;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	line-height: 25px;
+	font-weight:normal;
+}
+.img_note {
+	font-family: verdana, "Microsoft YaHei";
+	font-size: 12px;
+	color: #555555;
+	background-image: url(../images/line_2.gif);
+	background-repeat: repeat-x;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	line-height: 60px;
+	background-position: bottom;
+}
+.checkbox {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BACKGROUND: none transparent scroll repeat 0% 0%; VERTICAL-ALIGN: middle; BORDER-TOP: medium none; BORDER-RIGHT: medium none;cursor: pointer;
+}
+.checkbox {
+	HEIGHT: 14px
+}
+.radio {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BACKGROUND: none transparent scroll repeat 0% 0%; VERTICAL-ALIGN: middle; BORDER-TOP: medium none; BORDER-RIGHT: medium none;cursor: pointer;
+}
+.List_select {
+	BORDER-BOTTOM: #ccc 1px solid;
+	BORDER-LEFT: #666 1px solid;
+	BACKGROUND: #f9f9f9;
+	COLOR: #333;
+	BORDER-TOP: #666 1px solid;
+	BORDER-RIGHT: #ccc 1px solid;
+	font-family: verdana, "Microsoft YaHei";
+	font-size: 12px;
+	padding: 1px;
+	cursor: pointer;
+}
+a.line:link {
+	color: #000;
+	text-decoration: none;
+}
+a.line:visited {
+	text-decoration: none;
+	color: #000;
+}
+a.line:hover {
+	text-decoration: underline;
+	color: #F00;
+}
+a.line:active {
+	text-decoration: none;
+	color: #00C;
+}
+.radiotext {
+	font-family: verdana, "Microsoft YaHei";
+	font-size: 12px;
+	color: #555;
+}
+.radiotext:hover {
+	font-family: verdana, "Microsoft YaHei";
+	font-size: 12px;
+	color: #090;
+}
+.div_text {
+	font-family: verdana, "Microsoft YaHei";
+	font-size: 12px;
+	color: #0863AA;
+}
+.infobox_1 {
+	font-family: verdana, "Microsoft YaHei";
+	font-size: 12px;
+	color: #009900;
+	line-height: 25px;
+}
+a.red_line:link {
+	color: #F00;
+	text-decoration: none;
+}
+a.red_line:visited {
+	text-decoration: none;
+	color: #F00;
+}
+a.red_line:hover {
+	text-decoration: underline;
+	color: #555;
+}
+a.red_line:active {
+	text-decoration: none;
+	color: #F00;
+}
+a.linkblue_query:link {
+	color: #48607A;
+}
+a.linkblue_query:hover {
+	color: #EC7400;
+}
+a.linkblue_query:visited {
+	color: #48607A;
+}
+a.linkblue_query:active {
+	color: #48607A;
+}.admin_button {
+	font-family: verdana, "Microsoft YaHei";
+	font-size: 12px;
+	color: #092B6F;
+	background-image: url(../images/admin_index_button.GIF);
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 73px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding-top: 0px!important; /*IE8,FireFox,等支持*/
+	*padding-top: 2px!important; /*IE7支持*/
+	padding-top: 3px; /*IE6支持*/
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	cursor:pointer;
+}
+.admin_text {
+	font-family: verdana, "Microsoft YaHei";
+	font-size: 12px;
+	color: #333;
+}
+.textnote_cs {
+	font-family: verdana, "Microsoft YaHei";
+	font-size: 12px;
+	color: #555555;
+	background-image: url(../images/line_2.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}

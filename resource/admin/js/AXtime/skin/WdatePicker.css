@@ -1,0 +1,14 @@
+.Wdate {
+	VERTICAL-ALIGN: middle; background:#fff url(datePicker.gif) no-repeat right; cursor: pointer;
+}
+.Wdate:hover {
+	BORDER-BOTTOM-COLOR: #09c; BORDER-TOP-COLOR: #09c; BACKGROUND: #f5f9fd; BORDER-RIGHT-COLOR: #09c; BORDER-LEFT-COLOR: #09c; background:#fff url(datePicker.gif) no-repeat right;
+}
+.Wdate:focus {
+	BORDER-BOTTOM-COLOR: #09c; BORDER-TOP-COLOR: #09c; BACKGROUND: #f5f9fd; BORDER-RIGHT-COLOR: #09c; BORDER-LEFT-COLOR: #09c; background:#fff url(datePicker.gif) no-repeat right;
+}
+
+.WdateFmtErr{
+	font-weight:bold;
+	color:red;
+}

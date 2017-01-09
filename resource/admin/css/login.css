@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+*{font-family:"Microsoft YaHei"!important;}
+body{padding:0px; margin:0px; background:#ffffff; font-family:"Microsoft JhengHei";}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote{padding:0; margin:0;}
+table,td,tr,th{font-size:12px;}
+li{list-style-type:none;}
+table{ margin:0 auto;}
+img{vertical-align:top;border:0px;}
+ol,ul {list-style:none;}   
+caption,th {text-align:left;}  
+h1,h2,h3,h4,h5,h6 {font-size:12px; font-weight:normal;} 
+.clr {ZOOM: 1}
+.clr:unknown {CLEAR: both; DISPLAY: block; HEIGHT: 0px; content: " "}
+.height10 {clear:both; height:10px; overflow:hidden; display:block;}
+.clerar{clear:both}
+
+#top{width:100%; height:80px;}
+#top .cen{width:1000px; margin:0px auto;}
+.logo{float:left; margin-top:25px; margin-left:5px;}
+#center{width:100%; margin:20px auto; background:url(../images/login_cen.gif) center no-repeat; height:349px;}
+.cen{width:800px; margin:0px auto}
+.cen .login_img{float:left; margin-left:20px; margin-top:30px;}
+.cen .login_box{float:left; margin-left:20px; width:315px; overflow:hidden; margin-top:30px;}
+.login{width:315px; height:282px; background:url(../images/login_bj.gif) no-repeat; overflow:hidden; float:left;}
+.login ul{margin:10px 0px 0px 25px}
+.login ul li{display:block; line-height:33px; font-size:12px; font-weight:bold; color:#717070;}
+#denglu{background:url(../images/login_button.gif) no-repeat; width:257px; height:34px; cursor:pointer; border:0px; margin-top:12px;}
+.login_b{background:url(../images/login_bj2.gif) no-repeat; width:315px; height:40px; float:left; margin-top:5px;}
+.txt1{width:100px; line-height:25px; height:25px; padding-left:5px; border:1px solid #e8e8e8}
+.txt2{width:250px; line-height:25px; height:25px; padding-left:5px; border:1px solid #e8e8e8}
+.font2{float:right; font-size:12px; padding-right:30px; line-height:26px; font-weight:normal}
+.xian{width:100%; height:1px; background:#dfdcdc; float:left; margin:20px 0px;}
+#f_box{width:1000px; margin:0px auto}
+#foot_link{width:940px; float:left; margin:0px 10px}
+.foot_link_box{width:187px; float:left}
+.foot_link_box .title{font-size:14px; font-weight:bold; color:#000; line-height:25px;}
+.foot_link_box .title span{background:url(../images/tubiao.png) no-repeat 0px -190px; float:left; width:16px; height:18px; padding-right:5px;}
+.foot_link_box .title2{font-size:14px; font-weight:bold; color:#000; line-height:25px;}
+.foot_link_box .title2 span{background:url(../images/tubiao.png) no-repeat -30px -190px; float:left; width:21px; height:18px; padding-right:5px;}
+.foot_link_box .title3{font-size:14px; font-weight:bold; color:#000; line-height:25px;}
+.foot_link_box .title3 span{background:url(../images/tubiao.png) no-repeat -67px -190px; float:left; width:26px; height:18px; padding-right:5px;}
+.foot_link_box .title4{font-size:14px; font-weight:bold; color:#000; line-height:25px;}
+.foot_link_box .title4 span{background:url(../images/tubiao.png) no-repeat -111px -190px; float:left; width:17px; height:18px; padding-right:5px;}
+.foot_link_box .title5{font-size:14px; font-weight:bold; color:#000; line-height:25px;}
+.foot_link_box .title5 span{background:url(../images/tubiao.png) no-repeat -146px -190px; float:left; width:25px; height:18px; padding-right:5px;}
+.foot_link_box .box{width:187px; border-left:1px dashed #CCC; float:left; height:155px;}
+.foot_link_box .box ul{margin-left:20px; margin-top:5px;}
+.foot_link_box .box ul li{font-size:12px; color:#000; display:block; line-height:25px;}
+.foot_link_box .box ul li H3{color:#c50202; font-family:"微软雅黑"; font-size:16px; font-weight:bold; text-align:center; padding:5px 0px;}
+#qq2{background:url(../images/tubiao.png) no-repeat -76px -220px; width:120px; height:24px; border:0px;}
+#foot_nav{width:960px; background:url(../images/bj01.png) repeat-x 0px -284px; height:32px; float:left; margin-top:15px; margin-bottom:10px;}
+#foot_nav .box{width:580px; text-align:center; margin:0px auto;}
+#foot_nav .box ul{padding:0px;}
+#foot_nav .box ul li{color:#7a7a7a; font-size:12px; line-height:32px; float:left; padding:0px 5px;}
+#foot{width:960px; float:left}
+#foot .box{width:960px; text-align:center; line-height:25px; font-size:12px;}

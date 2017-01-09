@@ -1,0 +1,95 @@
+.accordion,
+.accordion ul,
+.accordion li,
+.accordion a,
+.accordion span {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	width:204px;
+	overflow:hidden
+}
+.accordion li {
+	list-style: none;
+}
+
+.accordion li  a {
+	display: block;
+	position: relative;
+	min-width: 110px;
+	padding: 0 10px 0 15px;
+	height: 32px;
+    color: #fdfdfd;
+	font-family:"宋体", "微软雅黑";
+	font-size:14px;
+	font-weight:bold;
+	line-height:32px;
+	text-decoration: none;
+    background:url(../images/admin_33.gif) no-repeat;
+	overflow:hidden;
+}
+
+.accordion > li:hover > a,
+.accordion > li:target > a,
+.accordion > li > a.active {
+	color: #ffffff;
+	background:url(../images/admin_33.gif) no-repeat;
+	overflow:hidden
+}
+
+.accordion li > a span {
+	display: block;
+	position: absolute;
+	top: 7px;
+	right: 0;
+	padding: 0 10px;
+	margin-right: 10px;
+	font-family:"宋体";
+	font-size:12px; 
+	background: #404247;
+}
+
+.accordion > li:hover > a span,
+.accordion > li:target > a span,
+.accordion > li > a.active span {
+	color: #fdfdfd;
+	background: #3e5706;
+}
+
+
+.sub-menu li a {
+	color: #797979;
+    background:url(../images/admin_47.gif) no-repeat;
+	font-size:12px;
+	font-weight:normal;
+	padding-left:30px;
+	line-height:32px;
+}
+
+.sub-menu li:hover a { background:url(../images/admin_47a.gif) no-repeat }
+
+.sub-menu li:last-child a { border: none; }
+
+.sub-menu li > a span {
+	color: #797979;
+	background: transparent;
+	border: 1px solid #c9c9c9;
+}
+
+.sub-menu em {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 14px;
+	color: #a6a6a6;
+	font: normal 10px/32px Arial, sans-serif;
+}
+
+.accordion li > .sub-menu {
+	display: none;
+}
+
+.accordion li:target > .sub-menu {
+	display: block;
+}
