@@ -3,10 +3,10 @@
 <head>
     
     <meta charset="utf-8" />
-    <title>后台管理</title>
-    <link type="text/css" rel="stylesheet" href="http://la.dev/resource/admin/css/login.css"/>
-    <script type="text/javascript" src="http://la.dev/resource/admin/js/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="http://la.dev/resource/admin/js/Ajax.js"></script>
+    <title><?php echo $header[sitetitle]?></title>
+    <link type="text/css" rel="stylesheet" href="http://b.app/resource/admin/css/login.css"/>
+    <script type="text/javascript" src="http://b.app/resource/admin/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="http://b.app/resource/admin/js/Ajax.js"></script>
 
     <script>
         function check(){

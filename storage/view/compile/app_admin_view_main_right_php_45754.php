@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link type="text/css" rel="stylesheet" href="http://la.dev/resource/admin/css/style_admin.css"/>
-    <link type="text/css" rel="stylesheet" href="http://la.dev/resource/admin/css/css.css"/>
+    <link type="text/css" rel="stylesheet" href="http://b.app/resource/admin/css/style_admin.css"/>
+    <link type="text/css" rel="stylesheet" href="http://b.app/resource/admin/css/css.css"/>
     <title>零度网|管理平台</title>
 
 </head>

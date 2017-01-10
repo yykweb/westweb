@@ -41,8 +41,8 @@
     </li>
     <li id="three"><a href="#three">会员账号管理</a>
         <ul class="sub-menu">
-            <li><a href="__APP__/admin/member/m_index" target="frmright" class="likelogin">会员管理</a></li>
-            <li><a href="__APP__/admin/member/l_index" target="frmright">会员等级</a></li>
+            <li><a href="{{U('admin/member/index')}}" target="frmright" class="likelogin">会员管理</a></li>
+            <li><a href="{{U('admin/member/l_index')}}" target="frmright">会员等级</a></li>
         </ul>
     </li>
     <li id="four"> <a href="#four">财务管理</a>

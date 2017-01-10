@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link type="text/css" rel="stylesheet" href="http://la.dev/resource/admin/css/style_admin.css"/>
-    <link type="text/css" rel="stylesheet" href="http://la.dev/resource/admin/css/nav.css"/>
+    <link type="text/css" rel="stylesheet" href="http://b.app/resource/admin/css/style_admin.css"/>
+    <link type="text/css" rel="stylesheet" href="http://b.app/resource/admin/css/nav.css"/>
     <title>零度网|管理平台</title>
 
 </head>
@@ -41,8 +41,8 @@
     </li>
     <li id="three"><a href="#three">会员账号管理</a>
         <ul class="sub-menu">
-            <li><a href="__APP__/admin/member/m_index" target="frmright" class="likelogin">会员管理</a></li>
-            <li><a href="__APP__/admin/member/l_index" target="frmright">会员等级</a></li>
+            <li><a href="<?php echo U('admin/member/index')?>" target="frmright" class="likelogin">会员管理</a></li>
+            <li><a href="<?php echo U('admin/member/l_index')?>" target="frmright">会员等级</a></li>
         </ul>
     </li>
     <li id="four"> <a href="#four">财务管理</a>
@@ -96,7 +96,7 @@
         </ul>
     </li>
 </ul>
-<script type="text/javascript" src="http://la.dev/resource/admin/css/jquery.min.js"></script>
+<script type="text/javascript" src="http://b.app/resource/admin/css/jquery.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
         // Store variables

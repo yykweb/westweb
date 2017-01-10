@@ -1,7 +1,7 @@
-<extend file="../master"/>
+<extend file="master"/>
 <block name="head">
     <meta charset="utf-8" />
-    <title>后台管理</title>
+    <title>{{$header[sitetitle]}}</title>
     <css file="__ROOT__/resource/admin/css/login.css"/>
     <js file="__ROOT__/resource/admin/js/jquery-1.7.1.min.js"/>
     <js file="__ROOT__/resource/admin/js/Ajax.js"/>

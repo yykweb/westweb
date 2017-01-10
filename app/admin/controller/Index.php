@@ -2,6 +2,7 @@
 namespace app\admin\controller;
 
 use app\admin\model\AdminUser;
+use app\admin\model\WebInfo;
 use houdunwang\code\Code;
 use houdunwang\crypt\Crypt;
 use houdunwang\db\Db;
@@ -13,18 +14,16 @@ class Index extends Base
 {
     public function index()
     {
-        $header = Db::table('webinfo')->where('id',1)->get();
-        //echo Crypt::encrypt('admin');
-        //print_r($header);
-        return view()->with('header',$header[0]);
+        $header = WebInfo::find(1);
+        return view()->with('header',$header);
     }
 
     public function login(){//管理员用户登录方法
 
-        if(!IS_POST) go('home.index.index',2,'非法访问');
+        if(!IS_POST) message('非法操作','home.index.index','error');
         if(!Code::auth('verify')){ //判断验证码是否正确
             //$this->error('验证码输入错误！');
-            go('admin.index.index',3,'验证码错误，请重试！');
+            message('验证码错误！','back','error');
         }
         $password = Request::post('admin_pass');
         $admin = AdminUser::find(1); //查询数据库用户是否存在
@@ -32,7 +31,7 @@ class Index extends Base
        // $pass = $iishost->PwdCP($password, $admin['admin_pass']);
 
         if($admin['admin_pass'] != Crypt::encrypt($password)){ //匹配用户名和密码
-            go('admin.index.index',3,'密码或账号错误！请重试！');
+            message('密码或账号错误！请重试！','back','error');
         }
 
         //设置session
@@ -67,7 +66,7 @@ class Index extends Base
 
         AdminUser::where('id',1)->update($data); //更新数据
 
-        go('admin/main/index');
+        message('登录成功！','admin/main/index');
 
     }
 
@@ -78,7 +77,7 @@ class Index extends Base
         Session::del('admin_uid');
         Session::del('session_admin_id');
 
-        go('home/index/index');
+        message('退出系统成功！','home/index/index');
     }
 
 }
